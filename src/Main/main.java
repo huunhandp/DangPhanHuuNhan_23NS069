@@ -30,7 +30,7 @@ public class main {
 	public static void main(String[] args) {
 		Thread thread1 = new Thread(() -> {
 			try {
-				docFileStudent("student.xml");
+				docFileStudent("kq.xml");
 
 			} catch (SAXException e) {
 				e.printStackTrace();
